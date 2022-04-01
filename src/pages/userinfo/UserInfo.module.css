@@ -1,0 +1,47 @@
+.imageName{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.UserImage{
+    width: 15rem;
+}
+
+.imageName input{
+    width: 20rem;
+    height: 3rem;
+    margin: 2rem 0;
+    padding-left: 0.5rem;
+}
+
+.NewUser input{
+    border: 2px rgba(64, 202, 240, 0.575) solid;
+    border-radius: 0.5rem;
+}
+.information input{
+    width: 55.3rem;
+    height: 3rem;
+    margin-top: 2rem;
+    padding-left: 0.5rem;
+}
+
+.createUser button{
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+    background-color: rgba(64, 202, 240, 0.7);
+    border-radius: 0.5rem;
+    border: 2px rgba(64, 202, 240, 1) solid;
+    color: white;
+    margin-top: 3rem;
+}
+
+.createUser{
+    display: flex;
+    justify-content: space-around;
+}
+
+::placeholder{
+    font-size: 1.5rem;
+    color: black;
+}

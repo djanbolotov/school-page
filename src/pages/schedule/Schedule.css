@@ -1,0 +1,31 @@
+.schedule-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+.day{
+        width: 20rem;
+        height: 10rem;
+        background-color: rgba(64, 202, 240, 0.575);
+        border-radius: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 2rem;
+}
+
+.save button{
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 2px rgba(64, 202, 240, 1) solid;
+    color: rgba(64, 202, 240, 1);
+    margin-top: 3rem;
+}
+
+.save{
+    display: flex;
+    justify-content: center;
+}

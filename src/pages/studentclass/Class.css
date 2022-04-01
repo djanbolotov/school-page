@@ -1,0 +1,15 @@
+.Grades{
+    display: flex;
+    justify-content: space-between;
+}
+
+.grade{
+    width: 20rem;
+    height: 10rem;
+    background-color: rgba(64, 202, 240, 0.575);
+    border-radius: 0.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1rem;
+}

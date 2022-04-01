@@ -1,0 +1,54 @@
+.Login{
+    height: 100vh;
+    background: url('../../assets/images/Login.png');
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+}
+
+.form-container{
+    border: 2px  rgba(64, 202, 240, 0.575) solid;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    width: fit-content;
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+button{
+    padding: 0.5rem 3rem;
+    font-size: 1.5rem;
+    background-color: white;
+    border-radius: 0.5rem;
+    border: 2px rgba(64, 202, 240, 0.6) solid;
+    margin-top: 3rem;
+}
+
+input{
+    width: 20rem;
+    height: 3rem;
+    margin: 2rem 0;
+    padding-left: 0.5rem;
+    border: 2px rgba(64, 202, 240, 0.575) solid;
+    border-radius: 0.5rem;
+}
+
+.form-container div{
+    display: flex;
+    justify-content: center;
+}

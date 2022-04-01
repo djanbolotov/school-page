@@ -1,0 +1,59 @@
+.sidebar{
+    width: 90%;
+    background-color: rgba(64, 202, 240, 0.575);
+    height: 100vh;
+}
+
+.sidebar > div{
+    margin-top: 1rem;
+}
+
+.close{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.closeIcon{
+    width: 2rem;
+    margin-right: 0.4rem;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+
+.logo-icon{
+    width: 6rem;
+}
+
+.icon{
+    width: 2rem;
+}
+
+.menu-item{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+}
+
+.menu-item > h2{
+    width: 10rem;
+    font-weight: 1000;
+}
+
+.exit > button{
+    padding: 0.5rem 2rem;
+    background-color: rgba(8, 174, 238, 0.20);
+    border: 2px white solid;
+    border-radius: 0.4rem;
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.exit{
+    display: flex;
+    justify-content: center;
+}
